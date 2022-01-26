@@ -2,16 +2,21 @@
 requires:
     packages:
         cke5: '^5.0.0'
-
+        mform: '^6.1.2'
+        mblock: '^3.4.4'
 # setup config
 # hint: inspect link values inside of REDAXO installer to find out fileIds (numbers) for new packages!
 setup:
     packages:
         cke5: 4030    # 5.0.5
+        mform: 3941   # 6.1.2
+        mblock: 3924  # 3.4.4
     installSequence:
         - backup
         - structure/content
         - cke5
+        - mform
+        - mblock
     dbimport:
         - demo_uikit3.utf8mb4.sql
     fileimport:
