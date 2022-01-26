@@ -4,7 +4,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class rex_command_demo_base_install extends rex_console_command {
+class rex_command_demo_uikit3_install extends rex_console_command {
     protected function configure()
     {
         $this->setDescription('Installs the REDAXO base demo')
@@ -17,7 +17,7 @@ class rex_command_demo_base_install extends rex_console_command {
 
         $skipConfirmation = true === $input->getOption('yes');
 
-        $io->title('Base Demo Installation');
+        $io->title('UIKit 3 Demo Installation');
 
         if (!$input->isInteractive() && !$skipConfirmation) {
             return 1;
@@ -30,7 +30,7 @@ class rex_command_demo_base_install extends rex_console_command {
 
         $io->writeln('Run installation ...');
 
-        $errors = rex_demo_base::install();
+        $errors = rex_uikit3_base::install();
 
         if (count($errors) > 0) {
             $io->error($this->decodeMessage("Failed to install demo:\n- " . join("\n- ", $errors)));
