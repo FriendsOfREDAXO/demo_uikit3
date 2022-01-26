@@ -1,0 +1,18 @@
+# additional requires (non-system packages)
+requires:
+    packages:
+        cke5: '^5.0.0'
+
+# setup config
+# hint: inspect link values inside of REDAXO installer to find out fileIds (numbers) for new packages!
+setup:
+    packages:
+        cke5: 4030    # 5.0.5
+    installSequence:
+        - backup
+        - structure/content
+        - cke5
+    dbimport:
+        - demo_uikit3.utf8mb4.sql
+    fileimport:
+        - demo_uikit3.tar.gz
