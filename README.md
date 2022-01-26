@@ -4,7 +4,7 @@ Diese Demo demonstriert den Aufbau einer REDAXO Website mit UIKit3.
 
 ## Hinweis
 
-Die Demo installiert das AddOn theme_lock um das light theme im Backend zu erzwingen. UIKit3 wird auch im Backend zur Anzeige verwendet. 
+Die Demo installiert das AddOn **theme_lock** um das light theme im Backend zu erzwingen. UIKit3 wird auch im Backend zur Anzeige verwendet. 
 
 ## Weitere Entwicklung
 
