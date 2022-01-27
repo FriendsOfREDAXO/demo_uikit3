@@ -14,7 +14,7 @@ setup:
         mform: 3941   # 6.1.2
         mblock: 3924  # 3.4.4
         theme_lock: 4024 # 0.0.5
-        uikit_collection: 4031 # 0.0.5
+        uikit_collection: 4031 # 3.0.0
     installSequence:
         - backup
         - structure/content
