@@ -20,4 +20,4 @@ console_commands:
     'demo_uikit3:install': rex_command_demo_uikit3_install
 conflicts:
     packages:
-        uikit_collection: '>=1.0.0'
+        uikit_collection: '<3.0.0'
