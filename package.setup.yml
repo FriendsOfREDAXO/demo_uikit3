@@ -1,11 +1,12 @@
 # additional requires (non-system packages)
 requires:
     packages:
-        uikit_collection: '>=3.0.0'
         cke5: '^5.0.0'
         mform: '^6.1.2'
         mblock: '^3.4.4'
         theme_lock: '>0.0.4'
+        navigation_array: '>1.0'
+        uikit_collection: '^3.0.0'
 # setup config
 # hint: inspect link values inside of REDAXO installer to find out fileIds (numbers) for new packages!
 setup:
@@ -15,9 +16,11 @@ setup:
         mblock: 3924  # 3.4.4
         theme_lock: 4024 # 0.0.5
         uikit_collection: 4031 # 3.0.0
+        navigation_array: 3939 
     installSequence:
         - backup
         - structure/content
+        - navigation_array
         - uikit_collection
         - theme_lock
         - cke5
