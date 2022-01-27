@@ -3,7 +3,7 @@ version: 1.0.0
 author: 'Friends Of REDAXO'
 supportpage: 'https://github.com/FriendsOfREDAXO/demo_uikit3'
 page:
-    title: 'translate:demo_base_title'
+    title: 'translate:demo_uikit3_title'
     perm: 'demo_uikit3[]'
     pjax: true
     subpages:
@@ -21,18 +21,3 @@ console_commands:
 conflicts:
     packages:
         uikit_collection: '>=1.0.0'
-setup:
-    packages:
-        cke5: 4030
-        mform: 3941
-        mblock: 3924
-    installSequence:
-        - backup
-        - structure/content
-        - cke5
-        - mform
-        - mblock
-    dbimport:
-        - redaxo_uikit_demo.sql
-    fileimport:
-        - redaxo_uikit_demo.tar.gz
