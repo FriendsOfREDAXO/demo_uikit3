@@ -6,6 +6,21 @@ Diese Demo demonstriert den Aufbau einer REDAXO Website mit UIKit3.
 
 Diese Demo benötigt eine utf8m4 kompatible Datenbank. 
 
+## Was es ist
+
+Es ist eine Demo. Sie verdeutlicht eine mögliche Umsetzung einer Webpräsenz zu Lernzwecken. Sie kann als Startpunkt für eingene Projekte vewendet werden. 
+
+## Was es nicht ist
+
+Es ist keine fertige Webpräsenz für den Live-Betrieb. Einiges müsste hierzu noch erledigt werden. 
+
+## Was ist drin? 
+
+- 4 Module (Cards, Content-Block / Slider, Iconliste, Überschrift) 
+- Haupttemplate mit Nebentemplates zum einfachen Umbau / Austausch
+- Navigation auf Basis des Navigation_Array-AddOns
+- Die Module sind mit MForm aufgebaut
+- MP4-Videoausgabe wird unterstützt
 
 ## Hinweis
 
