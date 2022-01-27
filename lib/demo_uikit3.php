@@ -2,7 +2,7 @@
 
 class rex_demo_uikit3 {
     public static function install() {
-        $addon = rex_addon::get('demo_base');
+        $addon = rex_addon::get('demo_uikit3');
         
         // in some cases rex_addon has the old package.yml in cache. But we need our new merged package.yml
         $addon->loadProperties();

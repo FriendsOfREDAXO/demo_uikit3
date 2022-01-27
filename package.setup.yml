@@ -18,6 +18,6 @@ setup:
         - mform
         - mblock
     dbimport:
-        - demo_uikit3.utf8mb4.sql
+        - redaxo_uikit_demo.sql
     fileimport:
-        - demo_uikit3.tar.gz
+        - redaxo_uikit_demo.tar.gz
