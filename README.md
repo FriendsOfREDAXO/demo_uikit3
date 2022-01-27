@@ -1,8 +1,11 @@
 # UIKit3 Demo für REDAXO 5
 
+![Screenshot](https://github.com/FriendsOfREDAXO/demo_uikit3/blob/assets/screen.jpg?raw=true)
+
 Diese Demo demonstriert den Aufbau einer REDAXO Website mit UIKit3. 
 
 Diese Demo benötigt eine utf8m4 kompatible Datanbank. 
+
 
 ## Hinweis
 
