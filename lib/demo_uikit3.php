@@ -132,16 +132,6 @@ class rex_demo_uikit3 {
             }
         }
 
-        // step 6: make yrewrite copy its htaccess file
-        if (class_exists('rex_yrewrite')) {
-            rex_yrewrite::copyHtaccess();
-        }
-
-        // step 7: clear developer addon data
-        if (rex_addon::get('developer')->isAvailable()) {
-            rex_dir::delete(rex_addon::get('developer')->getDataPath());
-        }
-
         return $errors;
     }
 }
