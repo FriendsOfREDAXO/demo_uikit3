@@ -40,4 +40,8 @@ Die Demo setzt folgende externe AddOns voraus (diese können alle innerhalb von 
 
 * CKEDITOR 5
 * theme_lock
+* mform
+* mblock
+
+
 
