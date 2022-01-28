@@ -10,7 +10,6 @@ page:
         install: { title: 'translate:title' }
 requires:
     packages:
-    packages:
         # Important: require system addOns only! Find other addOns required in `package.setup.yml`.
         # This is because we want the demo to be installed in first place without the need to install
         # any other addOns beforehand. The demo comes with a setup feature which checks the
