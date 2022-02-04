@@ -4,7 +4,7 @@ requires:
         cke5: '^5.0.0'
         mform: '^6.1.2'
         mblock: '^3.4.4'
-        theme_lock: '>0.0.4'
+        theme_lock: '>=1.0.0'
         navigation_array: '>1.0'
         uikit_collection: '^3.0.0'
 # setup config
@@ -14,7 +14,7 @@ setup:
         cke5: 4030    # 5.0.5
         mform: 3941   # 6.1.2
         mblock: 3924  # 3.4.4
-        theme_lock: 4024 # 0.0.5
+        theme_lock: 4046 # 1.0.0
         uikit_collection: 4031 # 3.0.0
         navigation_array: 3939 
     installSequence:
