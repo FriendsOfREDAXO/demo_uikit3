@@ -1,5 +1,5 @@
 package: demo_uikit3
-version: 1.0.0-beta5
+version: 1.0.0
 author: 'Friends Of REDAXO'
 supportpage: 'https://github.com/FriendsOfREDAXO/demo_uikit3'
 page:
@@ -20,5 +20,7 @@ requires:
         backup: '^2.3.0'
         structure/content: '^2.7.0'
     redaxo: ^5.13.0
+    php:
+        version: '>=7.3, <9' 
 console_commands:
     'demo_uikit3:install': rex_command_demo_uikit3_install
