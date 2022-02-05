@@ -30,6 +30,13 @@ Die Demo installiert das AddOn **theme_lock** um das "Light Theme" im Backend zu
 
 Die Demo wird von Zeit zu Zeit erweitert und Fehler werden korrigiert. Wir sind also über Hinweise dankbar.
 
+## Eigenes Theme
+
+Es wird ein Hauptordner uikit angelegt. Dort befindet sich das theme für das Frontend. 
+Den darin enthaltenen Dist-Ordnder kann man einfach durch einen eigenen ersetzen. 
+Ggf. die Sourcen im Template anpassen. 
+Für die Erstellung wird der Yarn-Workflow von UIKit empfohlen. 
+
 ## Installation
 
 1. Das AddOn-Verzeichnis muss den Namen `demo_uikit3` haben; nach dem Auspacken in das AddOn-Verzeichnis kopieren: `redaxo/src/addons`.
