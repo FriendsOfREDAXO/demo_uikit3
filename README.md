@@ -33,7 +33,7 @@ Die Demo wird von Zeit zu Zeit erweitert und Fehler werden korrigiert. Wir sind 
 ## Eigenes Theme
 
 Es wird ein Hauptordner uikit angelegt. Dort befindet sich das theme für das Frontend. 
-Den darin enthaltenen Dist-Ordnder kann man einfach durch einen eigenen ersetzen. 
+Den darin enthaltenen Dist-Ordner kann man einfach durch einen eigenen ersetzen. 
 Ggf. die Sourcen im Template anpassen. 
 Für die Erstellung wird der Yarn-Workflow von UIKit empfohlen. 
 
