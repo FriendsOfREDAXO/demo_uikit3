@@ -8,11 +8,11 @@ Diese Demo benötigt eine utf8m4 kompatible Datenbank.
 
 ## Was es ist
 
-Es ist eine Demo. Sie verdeutlicht eine mögliche Umsetzung einer Webpräsenz zu Lernzwecken. Sie kann als Startpunkt für eingene Projekte vewendet werden. 
+Es ist eine Demo. Sie verdeutlicht eine mögliche Umsetzung einer Webpräsenz zu Lernzwecken. Sie kann als Startpunkt für eigene Projekte vewendet werden. 
 
 ## Was es nicht ist
 
-Es ist keine fertige Webpräsenz für den Live-Betrieb. Einiges müsste hierzu noch erledigt werden. 
+Es ist keine fertige Webpräsenz für den Live-Betrieb. Hierzu sind weitere Schritte erforderlich. 
 
 ## Was ist drin? 
 
