@@ -25,7 +25,8 @@ It is not a ready web presence for live operation. Further steps are necessary f
 ## Note
 
 The demo installs the addon **theme_lock** to force the "Light Theme" in the backend. UIKit3 is also used in the backend for display, the darkmode unfortunately causes problems here.  
-## Weitere Entwicklung
+
+## Further development
 
 The demo will be extended from time to time and errors will be corrected. So we are grateful for hints.
 
