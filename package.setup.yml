@@ -1,9 +1,9 @@
 # additional requires (non-system packages)
 requires:
     packages:
-        cke5: '^5.0.0'
-        mform: '^6.1.2'
-        mblock: '^3.4.4'
+        cke5: '^5.2.0'
+        mform: '^7.2.1'
+        mblock: '^3.4.7'
         theme_lock: '>=1.0.0'
         navigation_array: '>1.0'
         uikit_collection: '^3.0.0'
@@ -11,9 +11,9 @@ requires:
 # hint: inspect link values inside of REDAXO installer to find out fileIds (numbers) for new packages!
 setup:
     packages:
-        cke5: 4030    # 5.0.5
-        mform: 3941   # 6.1.2
-        mblock: 3924  # 3.4.4
+        cke5: 4271    # 5.2.0
+        mform: 4493   # 7.2.1
+        mblock: 4499  # 3.4.4
         theme_lock: 4046 # 1.0.0
         uikit_collection: 4031 # 3.0.0
         navigation_array: 3939 
