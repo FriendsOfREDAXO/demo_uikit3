@@ -6,17 +6,19 @@ requires:
         mblock: '^3.4.7'
         theme_lock: '>=1.0.0'
         navigation_array: '>1.0'
-        uikit_collection: '^3.0.0'
+        uikit_collection: '^3.1.1'
+        adminer: '^1.9.2'
 # setup config
 # hint: inspect link values inside of REDAXO installer to find out fileIds (numbers) for new packages!
 setup:
     packages:
         cke5: 4271    # 5.2.0
-        mform: 4493   # 7.2.1
+        mform: 4633   # 7.2.4
         mblock: 4499  # 3.4.4
         theme_lock: 4046 # 1.0.0
-        uikit_collection: 4031 # 3.0.0
-        navigation_array: 3939 
+        uikit_collection: 4675 # 3.1.1
+        adminer: 3916
+        navigation_array: 4534 
     installSequence:
         - backup
         - structure/content
