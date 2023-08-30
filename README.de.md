@@ -43,12 +43,6 @@ Für die Erstellung wird der Yarn-Workflow von UIKit empfohlen.
 2. Das AddOn installieren.
 3. Auf der Seite "UIKit-Demo" auf "Demo installieren" klicken.
 
-Die Demo setzt folgende externe AddOns voraus (diese können alle innerhalb von REDAXO über den Installer installiert werden):
-
-* CKEDITOR 5
-* theme_lock
-* mform
-* mblock
-
+Have fun!
 
 
