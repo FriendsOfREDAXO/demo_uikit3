@@ -42,10 +42,3 @@ For the creation the Yarn-Workflow of UIKit is recommended.
 1. the AddOn directory must have the name `demo_uikit3`; after unpacking copy it into the AddOn directory: `redaxo/src/addons`.
 2. install the AddOn.
 3. on the page "UIKit-Demo" click on "Install Demo".
-
-The demo requires the following external AddOns (these can all be installed within REDAXO via the installer):
-
-* CKEDITOR 5
-* theme_lock
-* mform
-* mblock
