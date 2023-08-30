@@ -1,5 +1,5 @@
 package: demo_uikit3
-version: 2.1.1
+version: 2.2.0-dev
 author: 'Friends Of REDAXO'
 supportpage: 'https://github.com/FriendsOfREDAXO/demo_uikit3'
 page:
@@ -17,10 +17,10 @@ requires:
         # install these addOns seamlessly for you once you’ve clicked the setup button.
         # After setup, both package files get merged. Be sure to not publish a merged `package.yml`
         # with your new release. Always use the original un-merged file!
-        backup: '^2.3.0'
-        structure/content: '^2.7.0'
-    redaxo: ^5.14.0
+        backup: '^2.9.0'
+        structure/content: '^2.15.0'
+    redaxo: ^5.15.0
     php:
-        version: '>=7.4, <9' 
+        version: '>=8.1, <9' 
 console_commands:
     'demo_uikit3:install': rex_command_demo_uikit3_install
