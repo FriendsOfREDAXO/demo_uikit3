@@ -1,5 +1,8 @@
 # UIKit3 Demo for REDAXO 5
 
+> 👉🏻 Development has been stoped.
+ 
+
 ![Screenshot](https://github.com/FriendsOfREDAXO/demo_uikit3/blob/assets/screen.jpg?raw=true)
 
 This demo demonstrates how to build a REDAXO website with UIKit3. 
